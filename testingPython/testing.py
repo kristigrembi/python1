@@ -1,10 +1,10 @@
-def foo():
-    print(1)
-    x = bar()
-    print(x)
-    return 10
-def bar():
-    print(3)
-    return 5
-y = foo()
-print(y)
+def translate(phrase):
+   translation = ""
+   for letter in phrase:
+      if letter in "AEIOUaeiou":
+         translation = translation + "g"
+      else:
+         translation = translation + letter
+   return translation
+
+print(translate(input("Enter a phrase: dog")))
