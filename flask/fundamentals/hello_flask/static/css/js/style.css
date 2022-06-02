@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+   width: 800px;
+   margin: 0 auto;
+}
+h1{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    height: 60px;
+    display: flex;
+}
+.block{
+    width: 60px;
+}
+.color-1{
+    background-color: black;
+}
+.color-2{
+    background-color: red;
+}
